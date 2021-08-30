@@ -38,6 +38,7 @@ Usage
 ```python
 from flask import Flask
 from flask_jwt_extended import JWTManager
+from flask_errors_as_nested_dicts import ErrorsAsNestedDicts
 
 app = Flask(__name__)
 jwt = JWTManager(app)
